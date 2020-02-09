@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/notifications.css">
+    <title>Notifications</title>
+</head>
+<body>
+    <nav class="menu">
+        <ul class="menu-list">
+            <li><a href="./offerts.html"><img src="./img/buscar.svg" alt=""></a></li>
+            <li class="checked"><a href="./notifications.html"><img src="../img/notification.svg" alt=""></a></li>
+            <li><a href="./user.html"><img src="./img/user1.svg" alt=""></a></li>
+        </ul>
+    </nav>
+    <section>
+        <div class="notifications-head">
+            <div id="notification-btn">Notificaciones</div>
+            <div id="offert-btn">Ofertas</div>
+            <span id="line"></span>
+        </div>
+        <ul id="notification-list"></ul>
+        <ul id="offerts-list"></ul>
+    </section>
+    <script src="./lib/Notification.js"></script>
+    <script src="./lib/Offert.js"></script>
+    <script src="./lib/Notifications/app.js"></script>
+</body>
+</html>

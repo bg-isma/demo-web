@@ -1,0 +1,163 @@
+@import './style.css';
+
+/* SEARCH INPUT */
+.search-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0px;
+    position: fixed;
+    background-color: #333745;
+    z-index: 1;
+}
+
+.input-search {
+    display: flex;
+    margin: 0px 0px 0px 16px;    
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.input-search input {
+    height: 50px;
+    padding: 0px 20px 0px 60px;
+    font-size: 17px;
+    color: #d1363a;
+    background-color: #2d303b;
+    border-radius: 300px;
+    width: 100%;
+}
+
+.input-search:before {
+    content: "";
+    position: absolute;
+    top: 13px;
+    left: 22px;
+    width: 25px;
+    height: 25px;
+    background: url('../img/search.svg') transparent no-repeat center;
+    background-size: cover;
+}
+
+.filter-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 49px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0px 30px 0px 20px;
+}
+
+.filter-btn img {
+    width: 20px;
+    height: 20px;
+    margin-right: -2px;
+    margin-bottom: -5px;
+}
+
+/* TEAM RANKING */
+#offerts-list {
+    display: flex;
+    flex-direction: column;
+    padding: 55px 16px 80px 16px;
+}
+
+.offert {
+    margin-top: 20px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.offert-btns {
+    display: flex;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.offert-btns img {
+    width: 20px;
+    height: 20px;
+    margin-top: 8px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.offert a {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 0px solid #d1363a;
+}
+
+li.lol {
+    background: linear-gradient(to left, #cc3867, #c3476e);
+}
+li.fornite {
+    background: linear-gradient(to left, #614385, #516395);
+}
+li.pokemon {
+    background: linear-gradient(to left, #ce9f5e, #d4a461);
+}
+li.csgo {
+    background: linear-gradient(to left, #de6262, #dd7575);
+}
+
+.offert-head {
+    display: flex;
+    width: 100%;
+    height: 47px;
+}
+
+.offert-head h2 {
+    display: flex;
+    font-size: 15px;
+    font-weight: 700;
+    margin-right: 55px;
+}
+
+.offert-head div:last-child img {
+    width: 19px;
+    height: 17px;
+    margin: 10px 0px 0px 16px;
+}
+
+.offert-paragraph {
+    display: flex;
+    height: 32px;
+}
+
+.offert-paragraph p {
+    font-size: 12px;
+}
+
+.offert-foot {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.offert-foot div {
+    display: flex;
+    align-items: center;
+}
+
+.offert-foot h3 {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.offert-foot img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.offert-foot time {
+    font-size: 11px;
+    margin-bottom: -5px;
+}

@@ -1,0 +1,140 @@
+@import './style.css';
+
+.offert-content {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+
+.offert-head {
+    display: flex;
+    flex-direction: column;
+    background-color: #262831;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.offert-head h1 {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.offert-head p {
+    font-size: 13px;
+    margin: 5px 0px;
+}
+
+.offert-head img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.team-name {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.team-name h2 {
+    font-size: 17px;
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.menu-back {
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.menu-back img {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+div.lol {
+    background: linear-gradient(to left, #cc3867, #c3476e);
+}
+div.fornite {
+    background: linear-gradient(to left, #614385, #516395);
+}
+div.pokemon {
+    background: linear-gradient(to left, #ce9f5e, #d4a461);
+}
+div.csgo {
+    background: linear-gradient(to left, #de6262, #dd7575);
+}
+
+.offert-extra-info {
+    display: flex;
+}
+
+.offert-extra-info ul {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.offert-extra-info ul li {
+    display: flex;
+    margin: 5px 0px;
+    align-items: center;
+}
+
+.offert-extra-info ul li img {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+.offert-extra-info ul li h3 {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.large-description {
+    margin-top: 20px;
+}
+
+.large-description p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.large-description-head {
+    display: flex;
+    flex-direction: column;
+}
+
+.large-description-head h3 {
+    font-size: 17px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.large-description-head span {
+    width: 200px;
+    height: 1px;
+    background-color: #d1363a;
+}
+
+.aplly-btn {
+    display: flex;
+    margin-top: 20px;
+}
+
+.aplly-btn button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #d1363a;
+    border-radius: 2px;
+    padding: 9px 0px;
+    width: 100%;
+    font-weight: 700;
+}

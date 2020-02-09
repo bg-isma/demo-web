@@ -1,0 +1,185 @@
+@import './style.css';
+
+.notifications-head {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 55px;
+    background-color: #2d303b;
+}
+
+.notifications-head div {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 50%;
+    height: 55px;
+    padding-bottom: 15px;
+    color: #d1363a;
+    font-weight: 500;
+    position: relative;
+    cursor: pointer;
+}
+
+.notifications-head span {
+    position: absolute;
+    left: 0px;
+    top: 55px;
+    width: 50%;
+    height: 1px;
+    background-color: #d1363a;
+    transition: all 0.5s;
+}
+
+.notifications-head div:last-child {
+    border-bottom: 0px solid #d1363a;
+}
+
+#notification-list {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 16px;
+}
+
+#notification-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #d1363a;
+    padding: 13px 18px 13px 16px;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+.notification-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.notification-text h2 {
+    font-size: 13px;
+}
+
+.notification-text time {
+    font-size: 10px;
+}
+
+.notification-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.notification-body img {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.close-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.close-icon img {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+#offerts-list {
+    display: none;
+    flex-direction: column;
+    padding: 0px 16px 80px 16px;
+}
+
+.offert {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 5px;
+    border: 0px solid #d1363a;
+    margin-top: 20px;
+    background: linear-gradient(to left, #06beb6, #48b1bf);
+}
+
+li.lol {
+    background: linear-gradient(to left, #cc3867, #c3476e);
+}
+li.fornite {
+    background: linear-gradient(to left, #614385, #516395);
+}
+li.pokemon {
+    background: linear-gradient(to left, #ce9f5e, #d4a461);
+}
+li.csgo {
+    background: linear-gradient(to left, #de6262, #dd7575);
+}
+
+.offert-head {
+    display: flex;
+    width: 100%;
+    height: 47px;
+}
+
+.offert-head h2 {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.offert-head img {
+    width: 20px;
+    height: 20px;
+    margin-top: 8px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.offert-head div:last-child img {
+    width: 19px;
+    height: 17px;
+    margin: 10px 0px 0px 16px;
+}
+
+.offert-paragraph {
+    display: flex;
+    height: 32px;
+}
+
+.offert-paragraph p {
+    font-size: 12px;
+}
+
+.offert-foot {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.offert-foot div {
+    display: flex;
+    align-items: center;
+}
+
+.offert-foot h3 {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.offert-foot img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.offert-foot time {
+    font-size: 11px;
+}

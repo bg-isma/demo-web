@@ -1,0 +1,355 @@
+@import './style.css';
+
+/*    PLAYER SECTION    */
+.player-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.player-content-bg {
+    background-color: var(--main-bg-color);
+    border-radius: 0px 0px 0px 0px;
+    padding: 0px 16px 0px 16px;
+}
+
+/* HEAD */
+.player-head {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    height: 250px;
+    background-color: #9164ff;
+}
+
+.player-head span {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-top: 16px;
+    font-weight: 900;
+    color: var(--main-bg-color);
+}
+
+.player-head img {
+    width: 200px;
+    height: 200px;
+}
+
+/* NAME AND TEAM */
+.player-principal-info-content {
+    display: flex;
+    margin-top: 10px;
+    padding: 12px;
+    align-items: center;
+}
+
+.player-principal-info {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    position: relative;
+}
+
+.player-team-img-content {
+    position: relative;
+}
+
+.level {
+    position: absolute;
+    top: 70px;
+    left: 55px;
+    background-color: #ffffff;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #d1363a;
+    font-weight: 700;
+    width: 35px;
+    height: 35px;    
+    font-size: 12px;
+    z-index: 1;
+}
+
+.player-principal-info-content img {
+    width: 90px;
+    height: 90px;
+    margin: 7px 7px 7px 0px;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    z-index: 2;
+}
+
+.names {
+    margin: 7px 0px 0px 5px;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+.names h2 {
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.names h3 {
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 5px;
+    color: #d1363a;
+}
+
+/* GAME PANEL */
+#game-panel-content {
+    display: flex;
+    width: 100%;
+    height: 140px;
+    color: white;
+}
+
+#game-panel-content img {
+    height: 110px;
+    width: 100px;
+}
+
+#game-panel-content h3 {
+    font-size: 10px;
+    font-weight: 400;
+    text-align: center;
+}
+
+/* JUEGO PRINCIPAL */
+.principal-game-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.principal-game-content h2 {font-size: 17px;font-weight: 400;}
+.game {
+    height: 65px;
+    margin-top: 10px;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #d1363a;
+}
+
+.game img {
+    width: 100%;
+    height: 110%;
+    border-radius: 5px;
+}
+
+.absolute-name {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    border-radius: 5px;
+}
+
+.absolute-name:hover {
+    background-color: rgba(0, 0, 0, 0.219);
+}
+
+.game h3 {
+    background-color: #d1363a;
+    padding: 3px 10px;
+    font-size: 16px;
+    margin: 5px 5px;
+    font-weight: 400;
+    border-radius: 2px;
+}
+
+/* OTHER GAMES */
+.other-games-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8px;
+}
+
+.other-games-content h2 {
+    font-size: 17px;
+}
+
+.other-games-list-content {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.other-games-list-content ul {
+    display: flex;
+    padding: 0px 0px 10px 0px;
+}
+
+.other-games-list-content ul li {
+    width: 90px;
+    height: 120px;
+    background-color: beige;
+    margin: 0px 5px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.other-games-list-content ul li span {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.37);
+    border-radius: 5px;
+}
+
+.other-games-list-content ul li span:hover {
+    background-color: rgba(0, 0, 0, 0.219);
+}
+
+.other-games-list-content ul li img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px
+}
+
+
+.other-games-list-content ul li:first-child {
+    margin-left: 0px;
+}
+
+/* DESCRIPTION */
+.description-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.description-content p {
+    font-size: 14px;
+    border: 1px solid rgb(78, 78, 78);
+    border-left: 0px;
+    border-right: 0px;
+    padding: 12px 0px;
+}
+
+/* BOTON */
+.history-btn-content {
+    display: flex;
+    padding: 20px 10px 10px 10px;
+    background-color: var(--main-bg-color);
+}
+
+.history-btn-content button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    border-radius: 2px;
+    background-color: #d1363a;;
+    font-weight: 700;
+}
+
+/* OTHER INFO */
+.other-info-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.other-info-content > div {
+    display: flex;
+    align-items: center;
+    margin: 2px 0px;
+}
+
+.other-info-content i {
+    color: #d1363a;
+}
+
+.other-info-content h3 {
+    font-size: 14px;
+    margin-left: 20px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.other-info-content a {
+    font-weight: 400;
+}
+
+.links-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.links-content > div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.links-content > div > span {
+    display: flex;
+    align-items: center;
+}
+
+.links-content ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 10px;
+    overflow-x: hidden;
+}
+
+.links-content ul li {
+    display: flex;
+    width: 800px;
+    margin: 2px 0px;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.links-content ul li a {
+    display: flex;
+    font-weight: 700;
+    font-style: italic;
+    color: #ff484e;
+}
+
+i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 30px;
+    height: 20px;
+}
+
+i.email {
+    font-size: 20px;
+}
+
+/*
+.none {
+    display: none;
+}
+
+.open {
+    align-items: flex-end;
+    height: 800px;
+    border-radius: 20px 20px 0px 0px;
+}
+*/

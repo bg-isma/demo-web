@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+    src: local('Material Icons'),
+      local('MaterialIcons-Regular'),
+      url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+      url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+      url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+}
+
+:root {
+    --main-bg-color: #333745;
+    --main-color: white;
+}
+
+h1, h2, h3, h4, h5, p, ul, a, li, img,
+span, input, button, label, form {
+    margin: 0px;
+    padding: 0px;
+    border: 0px solid transparent;
+    border-radius: 0px;
+    list-style: none;
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    /* font-family: 'Eco Coding W02 WGL4', monospace; */
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    background-color: var(--main-bg-color);
+}
+
+nav {
+    bottom: 0px;
+    left: 0px;
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    z-index: 1;
+    display: flex;
+    position: fixed;
+}
+
+.d-flex {display: flex;}
+
+.menu-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+    background-color: #d1363a;
+ }
+ 
+.menu-list li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: min-content;
+    padding-bottom: 3px;
+}
+ 
+.menu-list li.checked {
+    border-bottom: 1px solid white;
+}
+ 
+.menu-list img {
+    width: 23px;
+    height: 23px;
+}
+ 
